@@ -3822,7 +3822,7 @@ f0940750f61a        saiyam911/labs-add:v1.0   &quot;/bin/sh&quot;           20 s
 -rw-------    1 root     root     295168000 Sep 19  2007 pharosc_8.4.tar.gz
 </code></pre><p>ADD Command lets you to add a tar directly from a link and explode to the container.</p>
 <h2 id="lab-3-create-an-image-with-copy-instruction">Lab #3: Create an image with COPY instruction</h2>
-<p>The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destinatio.</p>
+<p>The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destination.</p>
 <p>Two form of COPY instruction</p>
 <pre><code>COPY [--chown=&lt;user&gt;:&lt;group&gt;] &lt;src&gt;... &lt;dest&gt;
 COPY [--chown=&lt;user&gt;:&lt;group&gt;] [&quot;&lt;src&gt;&quot;,... &quot;&lt;dest&gt;&quot;] (this form is required for paths containing whitespace)
@@ -4067,8 +4067,8 @@ WORKDIR $DIRPATH
 </code></pre><h4 id="testing-current-workdir-by-running-container-3">Testing current WORKDIR by running container</h4>
 <pre><code>$ docker run -it workdir:v4 pwd
 </code></pre><h2 id="lab-7-create-an-image-with-run-instruction">Lab #7: Create an image with RUN instruction</h2>
-<p>The <code>RUN</code> instruction execute command on top of the below layer and create a new layer. <br>
-RUN instruction can be wrote in two forms:</p>
+<p>The <code>RUN</code> instruction executes a command on top of the layer below and creates a new layer. <br>
+The RUN instruction can be wrote in two forms:</p>
 <ul>
 <li>RUN <command> (shell form)</li>
 <li>RUN [&ldquo;executable&rdquo;, &ldquo;param1&rdquo;, &ldquo;param2&rdquo;] (exec form)</li>
@@ -4290,7 +4290,7 @@ local               ed09456a448934218f03acbdaa31f465ebbb92e0d45e8284527a2c538cc6
 <h4 id="volume-mount-path-in-host">Volume mount path in host</h4>
 <pre><code>$ docker container inspect -f '{{ (index .Mounts 0).Source }}' volume-test
 /var/lib/docker/volumes/ed09456a448934218f03acbdaa31f465ebbb92e0d45e8284527a2c538cc6b016/_data
-</code></pre><h3 id="testing-mount-working-as-exepected">Testing mount working as exepected</h3>
+</code></pre><h3 id="testing-mount-working-as-expected">Testing mount working as expected</h3>
 <h4 id="create-a-file-in-this-folder">Create a file in this folder</h4>
 <pre><code>$ touch /var/lib/docker/volumes/ed09456a448934218f03acbdaa31f465ebbb92e0d45e8284527a2c538cc6b016/_data/mytestfile.txt
 </code></pre><h4 id="checking-file-is-there-in-run-container">Checking file is there in run container</h4>
@@ -5133,7 +5133,7 @@ $
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 09.09.8089: <a  href="https://github.com/docker/get-involved/commit/b152b1ab7fe382b0bcc0164c823f2f7db6275c3b">Merge pull request #47 from zhangxd6/master (b152b1a)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 09.09.16169: <a  href="https://github.com/docker/get-involved/commit/60fb8424301572607a983bd35437bbe7792321ac">typo (60fb842)</a>
 </div>
 </div>
 

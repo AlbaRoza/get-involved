@@ -1420,7 +1420,7 @@ f0940750f61a        saiyam911/labs-add:v1.0   &amp;quot;/bin/sh&amp;quot;       
 -rw-------    1 root     root     295168000 Sep 19  2007 pharosc_8.4.tar.gz
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ADD Command lets you to add a tar directly from a link and explode to the container.&lt;/p&gt;
 &lt;h2 id=&#34;lab-3-create-an-image-with-copy-instruction&#34;&gt;Lab #3: Create an image with COPY instruction&lt;/h2&gt;
-&lt;p&gt;The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destinatio.&lt;/p&gt;
+&lt;p&gt;The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destination.&lt;/p&gt;
 &lt;p&gt;Two form of COPY instruction&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;COPY [--chown=&amp;lt;user&amp;gt;:&amp;lt;group&amp;gt;] &amp;lt;src&amp;gt;... &amp;lt;dest&amp;gt;
 COPY [--chown=&amp;lt;user&amp;gt;:&amp;lt;group&amp;gt;] [&amp;quot;&amp;lt;src&amp;gt;&amp;quot;,... &amp;quot;&amp;lt;dest&amp;gt;&amp;quot;] (this form is required for paths containing whitespace)
@@ -1665,8 +1665,8 @@ WORKDIR $DIRPATH
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;testing-current-workdir-by-running-container-3&#34;&gt;Testing current WORKDIR by running container&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$ docker run -it workdir:v4 pwd
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;lab-7-create-an-image-with-run-instruction&#34;&gt;Lab #7: Create an image with RUN instruction&lt;/h2&gt;
-&lt;p&gt;The &lt;code&gt;RUN&lt;/code&gt; instruction execute command on top of the below layer and create a new layer. &lt;br&gt;
-RUN instruction can be wrote in two forms:&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;RUN&lt;/code&gt; instruction executes a command on top of the layer below and creates a new layer. &lt;br&gt;
+The RUN instruction can be wrote in two forms:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;RUN &lt;command&gt; (shell form)&lt;/li&gt;
 &lt;li&gt;RUN [&amp;ldquo;executable&amp;rdquo;, &amp;ldquo;param1&amp;rdquo;, &amp;ldquo;param2&amp;rdquo;] (exec form)&lt;/li&gt;
@@ -1888,7 +1888,7 @@ local               ed09456a448934218f03acbdaa31f465ebbb92e0d45e8284527a2c538cc6
 &lt;h4 id=&#34;volume-mount-path-in-host&#34;&gt;Volume mount path in host&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$ docker container inspect -f &#39;{{ (index .Mounts 0).Source }}&#39; volume-test
 /var/lib/docker/volumes/ed09456a448934218f03acbdaa31f465ebbb92e0d45e8284527a2c538cc6b016/_data
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;testing-mount-working-as-exepected&#34;&gt;Testing mount working as exepected&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;testing-mount-working-as-expected&#34;&gt;Testing mount working as expected&lt;/h3&gt;
 &lt;h4 id=&#34;create-a-file-in-this-folder&#34;&gt;Create a file in this folder&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$ touch /var/lib/docker/volumes/ed09456a448934218f03acbdaa31f465ebbb92e0d45e8284527a2c538cc6b016/_data/mytestfile.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;checking-file-is-there-in-run-container&#34;&gt;Checking file is there in run container&lt;/h4&gt;
