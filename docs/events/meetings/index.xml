@@ -571,7 +571,7 @@
 &lt;th&gt;Name of Event&lt;/th&gt;
 &lt;th&gt;Chapter Name&lt;/th&gt;
 &lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Organizers&lt;/th&gt;
+&lt;th&gt;Organizer&lt;/th&gt;
 &lt;th&gt;RSVPs&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -587,7 +587,7 @@
 &lt;tr&gt;
 &lt;td&gt;2&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.meetup.com/Docker-Bangalore/events/280618190/&#34;&gt;An Open Source Community Conference 2021&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Docker Las Vegas&lt;/td&gt;
+&lt;td&gt;Docker Bangalore&lt;/td&gt;
 &lt;td&gt;Oct 9&lt;/td&gt;
 &lt;td&gt;Ajeet S Raina&lt;/td&gt;
 &lt;td&gt;39&lt;/td&gt;
