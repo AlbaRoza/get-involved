@@ -13,5 +13,761 @@
       
     
     
+    <item>
+      <title>Docs: Event Checklist</title>
+      <link>/docs/communityleaders/eventhandbooks/react/checklists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/communityleaders/eventhandbooks/react/checklists/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;before-the-workshop&#34;&gt;Before the workshop&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Step #&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#getting-familiar-with-meetup&#34;&gt;Getting Familiar with Meetup Platform&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#planning-an-event-agenda&#34;&gt;Planning an Event Agenda&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#setting-up-event-registration-page&#34;&gt;Setting up Event Registration Page&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#sending-confirmation-email-for-workshop&#34;&gt;Sending confirmation email for workshop&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;during-the-workshop&#34;&gt;During the workshop&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Step #&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#conducting-attendee-survey&#34;&gt;Conducting Attendee Survey&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;after-the-workshop&#34;&gt;After the workshop&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Step #&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#post-event-followup&#34;&gt;Post-Event FollowUp&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#community-leader-survey&#34;&gt;Community Leader Survey&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;#attendee-survey&#34;&gt;Attendee Survey&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;getting-familiar-with-meetup&#34;&gt;Getting Familiar with Meetup&lt;/h2&gt;
+&lt;p&gt;Docker community leaders uses Meetup (&lt;a href=&#34;https://meetup.com/pro/docker&#34;&gt;https://meetup.com/pro/docker&lt;/a&gt;) tool to conduct virtual Meetup events. We’ve chosen Meetup to provide innovative features for event organizers, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ability to check in guests.&lt;/li&gt;
+&lt;li&gt;Mobile App&lt;/li&gt;
+&lt;li&gt;RSVP as Guest&lt;/li&gt;
+&lt;li&gt;Automatic Emails (customizable)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more information, please visit &lt;a href=&#34;https://www.meetup.com/pro/docker&#34;&gt;https://www.meetup.com/pro/docker&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;events--analytics&#34;&gt;Events | Analytics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.meetup.com/hc/en-us/articles/360002881251-Creating-an-event&#34;&gt;Create a new event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.meetup.com/hc/en-us/articles/360004373231-How-do-I-download-print-my-event-attendee-list-&#34;&gt;Download Attendees List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.meetup.com/hc/en-us/articles/360002879371-How-do-I-email-my-members-&#34;&gt;How to email members?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.meetup.com/hc/en-us/articles/360003883411-Enable-a-waitlist-for-a-Meetup-event&#34;&gt;How to enable a waiting list for a Meetup event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;planning-an-event-agenda&#34;&gt;Planning an Event Agenda&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Your event must be posted on your &lt;a href=&#34;https://meetup.com/&#34;&gt;city’s Chapter page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Try to create event 1 month before the event&lt;/li&gt;
+&lt;li&gt;If you are having issues with your page, do not have a page or need admin permissions please contact William over Docker community Slack or send email to william.quiviger(AT)docker.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setting-up-event-registration-page&#34;&gt;Setting up Event Registration Page&lt;/h2&gt;
+&lt;p&gt;Every Community leader is expected to set up event registration page. While building an event registration page, ensure that the below list of information are captured:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Title of the workshop&lt;/li&gt;
+&lt;li&gt;Date of the workshop&lt;/li&gt;
+&lt;li&gt;Short Description of the workshop&lt;/li&gt;
+&lt;li&gt;Format of the workshop(whether it will be LIVE or recorded)&lt;/li&gt;
+&lt;li&gt;Level of the audience(Beginners/Intermediate/Advanced)&lt;/li&gt;
+&lt;li&gt;Name of the speakers&lt;/li&gt;
+&lt;li&gt;A Form which ask users to supply:
+&lt;ul&gt;
+&lt;li&gt;First Name&lt;/li&gt;
+&lt;li&gt;Last Name&lt;/li&gt;
+&lt;li&gt;Email Address&lt;/li&gt;
+&lt;li&gt;Company Name&lt;/li&gt;
+&lt;li&gt;Job Function&lt;/li&gt;
+&lt;li&gt;Country&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sending-confirmation-email-for-workshop&#34;&gt;Sending confirmation email for workshop&lt;/h2&gt;
+&lt;p&gt;Once the user register for the event, Community Leaders need to ensure that the interested users should receive a confirmation email.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Thank you message for registering for this event&lt;/li&gt;
+&lt;li&gt;Ensure that the registered user should be able to add the events date to their calendar&lt;/li&gt;
+&lt;li&gt;The email should carry workshop title and date of the workshop&lt;/li&gt;
+&lt;li&gt;Gentle reminder as the date of workshop come closer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sample-confirmation-email-for-the-workshop&#34;&gt;Sample Confirmation email for the workshop&lt;/h3&gt;
+&lt;h2 id=&#34;post-event-followup&#34;&gt;Post-Event Followup&lt;/h2&gt;
+&lt;h3 id=&#34;1-send-a-thank-you-email&#34;&gt;#1 Send a Thank You email&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S.No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;“Thank you for attending” post on the social media channels&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;ldquo;Thank you&amp;rdquo; email to all those who registered and attended the event&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Share the pics you took during the event and share it on social media(LinkedIn, Twitter, Facebook Public Docker Group etc&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Send thanks email to sponsor/vendors if this workshop is part of the Meetup event.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Thank core team and volunteers who helped you with the workshop&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-post-event-review&#34;&gt;#2 Post-event Review&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S.No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sit down with your team for a debrief session where you discuss how the event went&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Consider inviting at least some of the volunteers.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Evaluate whether the event was a success according to whatever goals you’ve set&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Have an open discussion about what worked well and what could be done better the next time around.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sit down with your team for a debrief session where you discuss how the event went&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;3-ask-for-feedback&#34;&gt;#3 Ask for feedback&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S.No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;While the event is still fresh in everyone’s mind, get their feedback about it.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Be straightforward. Collect input is to send out an email link to a survey that people can fill out online.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pick the one you like. If you can, add an incentive (free tickets to your next events, chance to win a gift card, and the like.).&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Having everyone fill out the same survey makes it easy to compare their input and spot trends and areas that need improvement.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;4-follow-up-on-social-media&#34;&gt;#4 Follow up on social media&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S.No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Online chatter about your event won’t immediately quiet down after the event is over.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Follow the conversation and jump in where it make sense to chip in with your input, thank the guests, or answer questions.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Engaging in post-event social media chatter and keeping the buzz going will also help you build audience for your next event.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Online chatter about your event won’t immediately quiet down after the event is over.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;5-start-planning-your-next-event&#34;&gt;#5 Start planning your next event&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S.No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Objectives&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Start putting all of that to good use and begin jotting down ideas for your next fantastic event&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;☑️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Agenda</title>
+      <link>/docs/communityleaders/eventhandbooks/react/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/communityleaders/eventhandbooks/react/agenda/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Timing&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Welcome&lt;/td&gt;
+&lt;td&gt;8:45 AM to 9:00 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;../prerequisite/&#34;&gt;Installing Node JS&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9:00 AM to 9:30 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;../basics/&#34;&gt;Basics of Docker&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9:30 AM to 10:30 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;../building/&#34;&gt;Building and Running a Docker Container&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:30 AM to 11:30 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Coffee/Tea Break&lt;/td&gt;
+&lt;td&gt;11:30 AM to 11:45 AM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;../pythonapp/&#34;&gt;Dockerize your first Node JS Application&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11:45 AM to 1:00 PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lunch&lt;/td&gt;
+&lt;td&gt;1:00 PM to 2:00 PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;../compose/&#34;&gt;Dockerize Multi-Container Node JS Application Using Docker Compose - Part 1&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:00 PM to 3:00 PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Coffee/Tea Break&lt;/td&gt;
+&lt;td&gt;3: PM to 3:45 PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;../compose/&#34;&gt;Dockerize Multi-Container Node JS Application Using Docker Compose - Part 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3:45 PM to 5:00 PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Quiz/Prize/Certificate Distribution&lt;/td&gt;
+&lt;td&gt;5:00 PM to 5:30 PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Prerequisite</title>
+      <link>/docs/communityleaders/eventhandbooks/react/prerequisite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/communityleaders/eventhandbooks/react/prerequisite/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;setup-environment&#34;&gt;Setup Environment&lt;/h2&gt;
+&lt;p&gt;This section describes the hardware and software needed for this workshop, and how to configure them.
+This workshop is designed for a BYOL (Bring Your Own Laptop) style hands-on-lab.&lt;/p&gt;
+&lt;h3 id=&#34;hardware--software&#34;&gt;Hardware &amp;amp; Software&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Memory: At least 4 GB+, strongly preferred 8 GB&lt;/li&gt;
+&lt;li&gt;Operating System: Mac OS X (10.10.3+), Windows 10 Pro+ 64-bit, Ubuntu 12+, CentOS 7+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;install-docker&#34;&gt;Install Docker&lt;/h3&gt;
+&lt;p&gt;Docker runs natively on Mac, Windows and Linux.
+This lab will use &lt;a href=&#34;https://www.docker.com/community-edition&#34;&gt;Docker Community Edition (CE)&lt;/a&gt;.
+Download the Docker CE edition for your machine from the &lt;a href=&#34;https://store.docker.com/search?type=edition&amp;amp;offering=community&#34;&gt;Docker Store&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE&lt;/em&gt;: Docker CE requires a fairly recent operating system version.
+If your machine does not meet the requirements, then you need to install &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34;&gt;Docker Toolbox&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This workshop is tested with Docker Community Edition &lt;code&gt;19.03.13-ce-rc10, build fec3683&lt;/code&gt; on Ubuntu &lt;code&gt;20.04.1 LTS&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;other-software&#34;&gt;Other Software&lt;/h3&gt;
+&lt;p&gt;The softwares in this section are specific to certain parts of the workshop.
+Install them only if you plan to attempt them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://git-scm.com&#34;&gt;GIT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Node JS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Download and install a code editor of your choice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sublimetext.com/3&#34;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Download and install Javascript IDE of your choice:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S.No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Name of Software&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Link to Follow&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Git&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://git-scm.com&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Node JS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Visual Studio Code&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Webstorm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.jetbrains.com/webstorm/&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sublime Text 3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.sublimetext.com/3&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;download-node-js&#34;&gt;Download Node JS&lt;/h1&gt;
+&lt;p&gt;You can download the latest version of Node JS from the below links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nodejs.org/en/&#34;&gt;MacOS &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;install-node-js&#34;&gt;Install Node JS&lt;/h1&gt;
+&lt;p&gt;Select the tab for your computer&amp;rsquo;s operating system below, then follow its installation instructions.&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;install-node-js&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#install-node-js-0&#34; role=&#34;tab&#34; aria-controls=&#34;install-node-js-0&#34; aria-selected=&#34;true&#34;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#install-node-js-1&#34; role=&#34;tab&#34; aria-controls=&#34;install-node-js-1&#34;&gt;Mac&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#install-node-js-2&#34; role=&#34;tab&#34; aria-controls=&#34;install-node-js-2&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;install-node-js&#34;&gt;&lt;div id=&#34;install-node-js-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;install-node-js-0&#34;&gt;
+
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the terminal check if Node JS is already installed by using the following command.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;node --version
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Install Node JS using apt-get&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install nodejs
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Verify that you&amp;rsquo;ve installed Node JS by opening a command prompt and typing the following command:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;
+$ node --version
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Confirm that the command prints the installed version of Node JS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;install-node-js-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;install-node-js-1&#34;&gt;
+
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the terminal check if Node JS is already installed by using the following command.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;node --version
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Node JS&amp;rsquo;s official downlaod page&lt;/a&gt; and click on download.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Once the pkg file is downloaded open it and follow the installation steps&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;On completetion open terminal to verify if the installation is successful using the following command&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;node --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;install-node-js-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;install-node-js-2&#34;&gt;
+
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the latest version of Node JS from &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Click on &lt;code&gt;Install Now&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;In the Command Prompt window that appears, type the following command: &lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;
+$ node --version
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Confirm that the command prints the installed version of Node JS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Basics of Docker</title>
+      <link>/docs/communityleaders/eventhandbooks/react/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/communityleaders/eventhandbooks/react/basics/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#main-components-of-docker-system&#34;&gt;Main Components of Docker System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#test-your-knowledge&#34;&gt;Test Your Knowledge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;basics-of-docker&#34;&gt;Basics of Docker&lt;/h2&gt;
+&lt;p&gt;This section introduces the basic terminology of Docker.&lt;/p&gt;
+&lt;p&gt;Docker is a platform for developers and sysadmins to build, ship, and run applications. Docker lets you quickly assemble applications from components and eliminates the friction that can come when shipping code. Docker lets you test and deploy your code into production as fast as possible.&lt;/p&gt;
+&lt;p&gt;Docker simplifies software delivery by making it easy to build and share images that contain your application’s entire environment, or &lt;em&gt;application operating system&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-does-it-mean-by-an-application-operating-system-&#34;&gt;What does it mean by an application operating system ?&lt;/h2&gt;
+&lt;p&gt;Your application typically requires a specific version of operating system, application server, runtime, and database server. It may also require configuration files, and multiple other dependencies. The application may need binding to specific ports and certain amount of memory. The components and configuration together required to run your application is what is referred to as application operating system.&lt;/p&gt;
+&lt;p&gt;You can certainly provide an installation script that will download and install these components. Docker simplifies this process by allowing to create an image that contains your application and infrastructure together, managed as one component. These images are then used to create Docker containers which run on the container virtualization platform, provided by Docker.&lt;/p&gt;
+&lt;h2 id=&#34;main-components-of-docker-system&#34;&gt;Main Components of Docker System&lt;/h2&gt;
+&lt;p&gt;Docker has three main components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Images are the &lt;em&gt;build component&lt;/em&gt; of Docker and are the read-only templates defining an application operating system.&lt;/li&gt;
+&lt;li&gt;Containers are the &lt;em&gt;run component&lt;/em&gt; of Docker and created from images. Containers can be run, started, stopped, moved, and deleted.&lt;/li&gt;
+&lt;li&gt;Images are stored, shared, and managed in a registry and are the &lt;em&gt;distribution component&lt;/em&gt; of Docker.&lt;/li&gt;
+&lt;li&gt;DockerHub is a publicly available registry and is available at &lt;a href=&#34;http://hub.docker.com&#34;&gt;http://hub.docker.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order for these three components to work together, the &lt;em&gt;Docker Daemon&lt;/em&gt; (or Docker Engine) runs on a host machine and does the heavy lifting of building, running, and distributing Docker containers. In addition, the &lt;em&gt;Client&lt;/em&gt; is a Docker binary which accepts commands from the user and communicates back and forth with the Engine.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;docker-architecture.png&#34; alt=&#34;docker-architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Client communicates with the Engine that is either co-located on the same host or on a different host. Client uses the &lt;code&gt;pull&lt;/code&gt; command to request the Engine to pull an image from the registry. The Engine then downloads the image from Docker Store, or whichever registry is configured. Multiple images can be downloaded from the registry and installed on the Engine. Client uses the &lt;code&gt;run&lt;/code&gt; run the container.&lt;/p&gt;
+&lt;h2 id=&#34;docker-image&#34;&gt;Docker Image&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve already seen that Docker images are read-only templates from which Docker containers are launched. Each image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. Union file systems allow files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.&lt;/p&gt;
+&lt;p&gt;One of the reasons Docker is so lightweight is because of these layers. When you change a Docker image—for example, update an application to a new version— a new layer gets built. Thus, rather than replacing the whole image or entirely rebuilding, as you may do with a virtual machine, only that layer is added or updated. Now you don&amp;rsquo;t need to distribute a whole new image, just the update, making distributing Docker images faster and simpler.&lt;/p&gt;
+&lt;p&gt;Every image starts from a base image, for example &lt;code&gt;ubuntu&lt;/code&gt;, a base Ubuntu image, or &lt;code&gt;fedora&lt;/code&gt;, a base Fedora image. You can also use images of your own as the basis for a new image, for example if you have a base Apache image you could use this as the base of all your web application images.&lt;/p&gt;
+&lt;p&gt;NOTE: By default, Docker obtains these base images from Docker Store.&lt;/p&gt;
+&lt;p&gt;Docker images are then built from these base images using a simple, descriptive set of steps we call instructions. Each instruction creates a new layer in our image. Instructions include actions like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run a command&lt;/li&gt;
+&lt;li&gt;Add a file or directory&lt;/li&gt;
+&lt;li&gt;Create an environment variable&lt;/li&gt;
+&lt;li&gt;Run a process when launching a container&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These instructions are stored in a file called a Dockerfile. Docker reads this Dockerfile when you request a build of an image, executes the instructions, and returns a final image.&lt;/p&gt;
+&lt;h2 id=&#34;docker-container&#34;&gt;Docker Container&lt;/h2&gt;
+&lt;p&gt;A container consists of an operating system, user-added files, and meta-data. As we&amp;rsquo;ve seen, each container is built from an image. That image tells Docker what the container holds, what process to run when the container is launched, and a variety of other configuration data. The Docker image is read-only. When Docker runs a container from an image, it adds a read-write layer on top of the image (using a union file system as we saw earlier) in which your application can then run.&lt;/p&gt;
+&lt;h2 id=&#34;docker-engine&#34;&gt;Docker Engine&lt;/h2&gt;
+&lt;p&gt;Docker Host is created as part of installing Docker on your machine. Once your Docker host has been created, it then allows you to manage images and containers. For example, the image can be downloaded and containers can be started, stopped and restarted.&lt;/p&gt;
+&lt;h3 id=&#34;docker-client&#34;&gt;Docker Client&lt;/h3&gt;
+&lt;p&gt;The client communicates with the Docker Host and let&amp;rsquo;s you work with images and containers.&lt;/p&gt;
+&lt;p&gt;Check if your client is working using the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;docker -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It shows the output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Docker version 20.10.2, build 2291f61
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;NOTE: The exact version may differ based upon how recently the installation was performed.&lt;/p&gt;
+&lt;p&gt;The exact version of Client and Server can be seen using &lt;code&gt;docker version&lt;/code&gt; command. This shows the output as:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; docker version
+Client: Docker Engine - Community
+ Cloud integration: 1.0.7
+ Version:           20.10.2
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        2291f61
+ Built:             Mon Dec 28 16:12:42 2020
+ OS/Arch:           darwin/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.2
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.13.15
+  Git commit:       8891c58
+  Built:            Mon Dec 28 16:15:28 2020
+  OS/Arch:          linux/amd64
+  Experimental:     true
+ containerd:
+  Version:          1.4.3
+  GitCommit:        269548fa27e0089a8b8278fc4fc781d7f65a939b
+ runc:
+  Version:          1.0.0-rc92
+  GitCommit:        ff819c7e9184c13b7c2607fe6c30ae19403a7aff
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+ajeetraina@Ajeets-MacBook-Pro realtime-sensor-jetson %
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The complete set of commands can be seen using &lt;code&gt;docker --help&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;test-your-knowledge&#34;&gt;Test Your Knowledge&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;S. No.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Question.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Response&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;What is difference between Docker Image and Docker Container?&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Where are all Docker images stored?&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Is DockerHub a public or private Docker registry?&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;What is the main role of Docker Engine?&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Dockerize Your First React Application</title>
+      <link>/docs/communityleaders/eventhandbooks/react/react-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/communityleaders/eventhandbooks/react/react-app/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Now that we have our server, let’s set about writing our Dockerfile and constructing the container in where our newly born React application will live.&lt;/p&gt;
+&lt;p&gt;Now that we have defined everything we need for our React application to run in our Dockerfile we can now build an image using this file. In order to do that, we’ll need to run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker build -t react-app .
+[+] Building 19.0s (17/17) FINISHED
+ =&amp;gt; [internal] load build definition from Dockerfile                                                               0.0s
+ =&amp;gt; =&amp;gt; transferring dockerfile: 625B                                                                               0.0s
+ =&amp;gt; [internal] load .dockerignore                                                                                  0.0s
+ =&amp;gt; =&amp;gt; transferring context: 57B                                                                                   0.0s
+ =&amp;gt; [internal] load metadata for docker.io/library/nginx:1.19                                                      2.7s
+ =&amp;gt; [internal] load metadata for docker.io/library/node:15.4                                                       2.8s
+ =&amp;gt; [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ =&amp;gt; [auth] library/node:pull token for registry-1.docker.io                                                        0.0s
+ =&amp;gt; [build 1/6] FROM docker.io/library/node:15.4@sha256:a76eb778d162f8fd96138d9ca7dbd14b8916c201775a97d2f2aa22e9f  0.0s
+ =&amp;gt; [internal] load build context                                                                                  0.1s
+ =&amp;gt; =&amp;gt; transferring context: 516.66kB                                                                              0.0s
+ =&amp;gt; [stage-1 1/3] FROM docker.io/library/nginx:1.19@sha256:df13abe416e37eb3db4722840dd479b00ba193ac6606e7902331dc  0.0s
+ =&amp;gt; CACHED [build 2/6] WORKDIR /react-app                                                                          0.0s
+ =&amp;gt; CACHED [build 3/6] COPY package*.json .                                                                        0.0s
+ =&amp;gt; CACHED [build 4/6] RUN yarn install                                                                            0.0s
+ =&amp;gt; [build 5/6] COPY . .                                                                                           0.1s
+ =&amp;gt; [build 6/6] RUN yarn run build                                                                                14.3s
+ =&amp;gt; CACHED [stage-1 2/3] COPY ./nginx/nginx.conf /etc/nginx/nginx.conf                                             0.0s
+ =&amp;gt; CACHED [stage-1 3/3] COPY --from=build /react-app/build /usr/share/nginx/html                                  0.0s
+ =&amp;gt; exporting to image                                                                                             0.0s
+ =&amp;gt; =&amp;gt; exporting layers                                                                                            0.0s
+ =&amp;gt; =&amp;gt; writing image sha256:dcbdf2ec78039a9eda5acce77263ea5cf653730e78c151acfebaf7a5d33eac97                       0.0s
+ =&amp;gt; =&amp;gt; naming to docker.io/library/react-app                                                                       0.0s
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We can now verify that our image exists on our machine by typing docker images:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker image ls
+REPOSITORY                                 TAG                 IMAGE ID            CREATED             SIZE
+react-app                            latest              dcbdf2ec7803        2 minutes ago       134MB$ docker images
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In order to run this newly created image, we can use the docker run command and pass in the ports we want to map to and the image we wish to run.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker run -p 80:80 -it react-app
+
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-p 8000:5000&lt;/code&gt; - This exposes our application which is running on port 80 within our container on http://localhost on our local machine.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-it&lt;/code&gt; - This flag specifies that we want to run this image in interactive mode with a tty for this container process.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;react-app&lt;/code&gt; - This is the name of the image that we want to run in a container.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Awesome, if we open up http://localhost within our browser, we should see that our application is successfully responding with react template page.&lt;/p&gt;
+&lt;h1 id=&#34;running-our-container-in-the-background&#34;&gt;Running our Container In the Background&lt;/h1&gt;
+&lt;p&gt;You’ll notice that if we &lt;code&gt;ctrl-c&lt;/code&gt; this within the terminal, it will kill the container. If we want to have it run permanently in the background, you can replace -it with &lt;code&gt;-d &lt;/code&gt; to run this container in detached mode.&lt;/p&gt;
+&lt;p&gt;In order to view the list of containers running in the background you can use docker ps which should output something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker ps
+CONTAINER ID   IMAGE       COMMAND                  CREATED         STATUS         PORTS                               NAMES
+fe15c29533e2   react-app   &amp;quot;/docker-entrypoint.…&amp;quot;   6 seconds ago   Up 5 seconds   0.0.0.0:80-&amp;gt;80/tcp, :::80-&amp;gt;80/tcp   zealous_stonebraker
+
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Addition Resources</title>
+      <link>/docs/communityleaders/eventhandbooks/react/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/communityleaders/eventhandbooks/react/resources/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Follow the below additional resources which you might find useful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.vigneshcodes.in/quick-guide-to-deploy-using-docker&#34;&gt;Deploy React Using Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
