@@ -412,13 +412,9 @@ Install them only if you plan to attempt them.&lt;/p&gt;
 &lt;p&gt;Install &lt;a href=&#34;https://git-scm.com&#34;&gt;git&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Install &lt;a href=&#34;https://dotnet.microsoft.com&#34;&gt;Go&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;Download and install a code editor of your choice:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/go/download/&#34;&gt;GoLand&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sublimetext.com/3&#34;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -452,11 +448,6 @@ Install them only if you plan to attempt them.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;GoLand&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.jetbrains.com/go/download/&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Sublime Text 3&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.sublimetext.com/3&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -566,7 +557,7 @@ The path to an application .dll file to execute.
 &lt;li&gt;DockerHub is a publicly available registry and is available at &lt;a href=&#34;http://hub.docker.com&#34;&gt;http://hub.docker.com&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In order for these three components to work together, the &lt;em&gt;Docker Daemon&lt;/em&gt; (or Docker Engine) runs on a host machine and does the heavy lifting of building, running, and distributing Docker containers. In addition, the &lt;em&gt;Client&lt;/em&gt; is a Docker binary which accepts commands from the user and communicates back and forth with the Engine.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;docker-architecture.png&#34; alt=&#34;docker-architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.docker.com/engine/images/architecture.svg&#34; alt=&#34;docker-architecture&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The Client communicates with the Engine that is either co-located on the same host or on a different host. Client uses the &lt;code&gt;pull&lt;/code&gt; command to request the Engine to pull an image from the registry. The Engine then downloads the image from Docker Store, or whichever registry is configured. Multiple images can be downloaded from the registry and installed on the Engine. Client uses the &lt;code&gt;run&lt;/code&gt; run the container.&lt;/p&gt;
 &lt;h2 id=&#34;docker-image&#34;&gt;Docker Image&lt;/h2&gt;
 &lt;p&gt;We&amp;rsquo;ve already seen that Docker images are read-only templates from which Docker containers are launched. Each image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. Union file systems allow files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.&lt;/p&gt;
@@ -719,11 +710,6 @@ ajeetraina@Ajeets-MacBook-Pro realtime-sensor-jetson %
 &lt;td align=&#34;left&#34;&gt;EXPOSE&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Informs the network ports that the container will listen on&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;code&gt;EXPOSE 8093&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;==================&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1235,6 +1221,31 @@ namespace myWebApp.Data
                 }
             }
         }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;let update the UI&lt;/p&gt;
+&lt;p&gt;Index.cshtml&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row mb-auto&amp;quot;&amp;gt;
+    &amp;lt;p&amp;gt;Student Name is @Model.StudentName&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and Index.cshtml.cs&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    public class IndexModel : PageModel
+    {
+        public string StudentName { get; private set; } = &amp;quot;PageModel in C#&amp;quot;;
+         private readonly ILogger&amp;lt;IndexModel&amp;gt; _logger;
+        private readonly myWebApp.Data.SchoolContext _context;
+
+        public IndexModel(ILogger&amp;lt;IndexModel&amp;gt; logger, myWebApp.Data.SchoolContext context)
+        {
+            _logger = logger;
+            _context= context;
+        }
+
+        public void OnGet()
+        {
+            var s =_context.Students.Where(d=&amp;gt;d.ID==1).FirstOrDefault();
+            this.StudentName = $&amp;quot;{s?.FirstMidName} {s?.LastName}&amp;quot;;
+           
+        }
+    }
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configuration-file&#34;&gt;Configuration file&lt;/h2&gt;
 &lt;p&gt;The entry point to Docker Compose is a Compose file, usually called &lt;code&gt;docker-compose.yml&lt;/code&gt;. In project directory, create a new file &lt;code&gt;docker-compose.yml&lt;/code&gt; in it. Use the following contents:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;services:

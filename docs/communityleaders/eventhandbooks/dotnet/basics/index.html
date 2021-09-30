@@ -3728,7 +3728,7 @@
 <li>DockerHub is a publicly available registry and is available at <a href="http://hub.docker.com">http://hub.docker.com</a>.</li>
 </ul>
 <p>In order for these three components to work together, the <em>Docker Daemon</em> (or Docker Engine) runs on a host machine and does the heavy lifting of building, running, and distributing Docker containers. In addition, the <em>Client</em> is a Docker binary which accepts commands from the user and communicates back and forth with the Engine.</p>
-<p><img src="docker-architecture.png" alt="docker-architecture"></p>
+<p><img src="https://docs.docker.com/engine/images/architecture.svg" alt="docker-architecture"></p>
 <p>The Client communicates with the Engine that is either co-located on the same host or on a different host. Client uses the <code>pull</code> command to request the Engine to pull an image from the registry. The Engine then downloads the image from Docker Store, or whichever registry is configured. Multiple images can be downloaded from the registry and installed on the Engine. Client uses the <code>run</code> run the container.</p>
 <h2 id="docker-image">Docker Image</h2>
 <p>We&rsquo;ve already seen that Docker images are read-only templates from which Docker containers are launched. Each image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. Union file systems allow files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.</p>
@@ -4119,7 +4119,7 @@ ajeetraina@Ajeets-MacBook-Pro realtime-sensor-jetson %
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 09.09.25259: <a  href="https://github.com/docker/get-involved/commit/2edd7b0cc525cf757178c24583be469c5541d777">Update _index.md (2edd7b0)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 09.09.30309: <a  href="https://github.com/docker/get-involved/commit/adc93ebbf13bd04366f64a4d1d65fdd9d8199dcf">Merge pull request #53 from zhangxd6/master (adc93eb)</a>
 </div>
 </div>
 

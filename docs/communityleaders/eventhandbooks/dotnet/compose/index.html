@@ -3896,6 +3896,31 @@ namespace myWebApp.Data
                 }
             }
         }
+</code></pre><p>let update the UI</p>
+<p>Index.cshtml</p>
+<pre><code>&lt;div class=&quot;row mb-auto&quot;&gt;
+    &lt;p&gt;Student Name is @Model.StudentName&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><p>and Index.cshtml.cs</p>
+<pre><code>    public class IndexModel : PageModel
+    {
+        public string StudentName { get; private set; } = &quot;PageModel in C#&quot;;
+         private readonly ILogger&lt;IndexModel&gt; _logger;
+        private readonly myWebApp.Data.SchoolContext _context;
+
+        public IndexModel(ILogger&lt;IndexModel&gt; logger, myWebApp.Data.SchoolContext context)
+        {
+            _logger = logger;
+            _context= context;
+        }
+
+        public void OnGet()
+        {
+            var s =_context.Students.Where(d=&gt;d.ID==1).FirstOrDefault();
+            this.StudentName = $&quot;{s?.FirstMidName} {s?.LastName}&quot;;
+           
+        }
+    }
 </code></pre><h2 id="configuration-file">Configuration file</h2>
 <p>The entry point to Docker Compose is a Compose file, usually called <code>docker-compose.yml</code>. In project directory, create a new file <code>docker-compose.yml</code> in it. Use the following contents:</p>
 <pre><code>services:
@@ -4329,7 +4354,7 @@ Removing network mywebapp_default
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 09.09.25259: <a  href="https://github.com/docker/get-involved/commit/2edd7b0cc525cf757178c24583be469c5541d777">Update _index.md (2edd7b0)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 09.09.30309: <a  href="https://github.com/docker/get-involved/commit/adc93ebbf13bd04366f64a4d1d65fdd9d8199dcf">Merge pull request #53 from zhangxd6/master (adc93eb)</a>
 </div>
 </div>
 
