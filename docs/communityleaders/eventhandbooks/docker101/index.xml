@@ -2035,7 +2035,7 @@ You won&#39;t see me until later
  ---&amp;amp;gt; ca6f025712d4
  ---&amp;amp;gt; ca6f025712d4
 Successfully built ca6f025712d4
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ubutu-rails&#34;&gt;Ubutu Rails&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ubuntu-rails&#34;&gt;Ubuntu Rails&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;FROM ubuntu:12.04
 
 RUN apt-get update -qq &amp;amp;&amp;amp; apt-get install -y ca-certificates sudo curl git-core
